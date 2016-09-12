@@ -1,0 +1,11 @@
+name: Camera
+modelClass: Ucast\Api\Models\Camera
+form: $/ucast/api/models/camera/fields.yaml
+defaultRedirect: ucast/api/camera
+create:
+    redirect: 'ucast/api/camera/update/:id'
+    redirectClose: ucast/api/camera
+update:
+    redirect: ucast/api/camera
+    redirectClose: ucast/api/camera
+preview: {  }

@@ -1,0 +1,11 @@
+title: Camera
+modelClass: Ucast\Api\Models\Camera
+list: $/ucast/api/models/camera/columns.yaml
+recordUrl: 'ucast/api/camera/update/:id'
+noRecordsMessage: 'backend::lang.list.no_records'
+showSetup: true
+showCheckboxes: true
+toolbar:
+    buttons: list_toolbar
+    search:
+        prompt: 'backend::lang.list.search_prompt'

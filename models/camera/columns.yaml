@@ -1,0 +1,30 @@
+columns:
+    camera_id:
+        label: 'Camera ID'
+        type: number
+        searchable: true
+        sortable: true
+    name:
+        label: Name
+        type: text
+        searchable: true
+    location:
+        label: Location
+        type: text
+        searchable: true
+    camera_ctx:
+        label: 'Camera context'
+        type: text
+        searchable: true
+    activate:
+        label: 'Activate at'
+        type: datetime
+        sortable: true
+    last_seen:
+        label: 'Last seen at'
+        type: datetime
+        sortable: true
+    description:
+        label: Description
+        type: text
+        searchable: true

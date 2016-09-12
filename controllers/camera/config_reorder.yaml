@@ -1,0 +1,4 @@
+title: Camera
+modelClass: Ucast\Api\Models\Camera
+toolbar:
+    buttons: reorder_toolbar

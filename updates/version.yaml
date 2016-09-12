@@ -1,0 +1,8 @@
+1.0.1:
+    - 'Initialize plugin.'
+1.0.2:
+    - 'Created table ucast_api_cameras'
+    - builder_table_create_ucast_api_cameras.php
+1.0.3:
+    - 'Updated table ucast_api_cameras'
+    - builder_table_update_ucast_api_cameras.php

@@ -1,0 +1,11 @@
+plugin:
+    name: 'ucast.api::lang.plugin.name'
+    description: 'ucast.api::lang.plugin.description'
+    author: ucast
+    icon: oc-icon-video-camera
+    homepage: ''
+navigation:
+    main-menu-item:
+        label: Cameras
+        url: ucast/api/camera
+        icon: icon-video-camera
