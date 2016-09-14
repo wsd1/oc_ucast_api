@@ -34,3 +34,8 @@ fields:
         span: full
         oc.commentPosition: ''
         type: text
+    user_id:
+        label: Owner
+        span: auto
+        oc.commentPosition: ''
+        type: text

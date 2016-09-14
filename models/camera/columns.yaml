@@ -28,3 +28,8 @@ columns:
         label: Description
         type: text
         searchable: true
+    user_id:
+        label: Owner
+        type: text
+        searchable: true
+        sortable: true

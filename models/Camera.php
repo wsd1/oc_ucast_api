@@ -25,4 +25,15 @@ class Camera extends Model
      * @var string The database table used by the model.
      */
     public $table = 'ucast_api_cameras';
+
+
+    public $belongsTo = [
+        'user' => '\RainLab\User\Models\User'
+    ];
+
+//    public $belongsTo = [
+//        'parent'    => ['User', 'key' => 'parent_id'],
+//    ];
+
+
 }
