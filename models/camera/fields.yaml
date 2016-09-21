@@ -34,8 +34,10 @@ fields:
         span: full
         oc.commentPosition: ''
         type: text
-    user_id:
+    user:
         label: Owner
         span: auto
         oc.commentPosition: ''
-        type: text
+        nameFrom: name
+        descriptionFrom: description
+        type: relation

@@ -1,6 +1,8 @@
 <?php namespace Ucast\Api;
 
 use System\Classes\PluginBase;
+use RainLab\User\Models\User;
+
 
 class Plugin extends PluginBase
 {
@@ -21,4 +23,16 @@ class Plugin extends PluginBase
             ]
         ];
     }
+
+
+    public function boot()
+    {
+        User::extend(function($model){
+
+            $model->hasMany['cameras'] = ['Ucast\Api\Models\Camera'];
+
+//            $model->belongsTo['team'] = ['Rafie\SitepointDemo\Models\Team'];
+        });
+    }
+
 }

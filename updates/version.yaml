@@ -6,9 +6,6 @@
 1.0.3:
     - 'Updated table ucast_api_cameras'
     - builder_table_update_ucast_api_cameras.php
-1.0.4:
+1.0.6:
     - 'Updated table ucast_api_cameras'
-    - builder_table_update_ucast_api_cameras_2.php
-1.0.5:
-    - 'Updated table ucast_api_cameras'
-    - builder_table_update_ucast_api_cameras_3.php
+    - builder_table_update_ucast_api_cameras_4.php
