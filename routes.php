@@ -76,10 +76,13 @@ Route::get('/api/login_check', function () {
 		$user = Auth::getUser();
 		if($user == null) return "no body.";
 		else return $user->toJson();
+})->middleware('jwt.auth');
+
+
+
+
+Route::get('/api/public_req', function () {
+	return "Public response OK";
 });
 
-Route::get('/api/login_check', function () {
-		$user = Auth::getUser();
-		if($user == null) return "no body.";
-		else return $user->toJson();
-});
+

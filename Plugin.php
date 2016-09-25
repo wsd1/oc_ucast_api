@@ -6,6 +6,10 @@ use RainLab\User\Models\User;
 
 class Plugin extends PluginBase
 {
+
+    public $require = ['RainLab.User', 'Autumn.JWTAuth'];
+
+
     public function registerComponents()
     {
     }
